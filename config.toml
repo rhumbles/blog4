@@ -1,3 +1,52 @@
-baseURL = "http://example.org/"
+baseurl = "http://example.com/"
+theme = "hugo-geo"
+relativeURLs = false
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Blogs"
+disqusShortname = "shortcode-here"
+paginate = 5
+
+[taxonomies]
+	tag = "tags"
+	tutorial = "tutorials"
+
+[params]
+	showglobe = true
+
+	favicon = "favicon.ico"
+	
+	analytics = "code-here"
+
+	email = "rhumbles@gmail.com"
+
+	profilepic = "img/profile.png"
+	
+	title = "Richard Humbles"
+	subtitle = "MY BLOG"
+
+	# Social buttons for sidebar
+	# Each of these are optional
+	[[params.socialbuttons]]
+	faicon = "github"
+	url = "https://github.com/rhumbles"
+	[[params.socialbuttons]]
+	faicon = "twitter"
+	url = "https://twitter.com/rhumbles"
+	[[params.socialbuttons]]
+	faicon = "linkedin"
+	url = "https://linkedin.com"
+	[[params.socialbuttons]]
+	faicon = "google-plus"
+	url = "https://plus.google.com/rhumbles"
+
+	[[params.navlinks]]
+	name = "About"
+	url = "about"
+	
+	[[params.navlinks]]
+	name = "Blog"
+	url = ""
+	
+	[[params.navlinks]]
+	name = "Tutorials"
+	url = "tutorial/"
