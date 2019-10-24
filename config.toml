@@ -1,4 +1,4 @@
-baseurl = "http://example.com/"
+baseurl = "https://rhumbles.github.io/"
 theme = "hugo-geo"
 relativeURLs = false
 languageCode = "en-us"
