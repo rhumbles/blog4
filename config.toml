@@ -22,31 +22,27 @@ paginate = 5
 	profilepic = "img/profile.png"
 	
 	title = "Richard Humbles"
-	subtitle = "MY BLOG"
+	subtitle = "Solution Engineering"
 
 	# Social buttons for sidebar
 	# Each of these are optional
 	[[params.socialbuttons]]
-	faicon = "github"
-	url = "https://github.com/rhumbles"
-	[[params.socialbuttons]]
 	faicon = "twitter"
 	url = "https://twitter.com/rhumbles"
+
 	[[params.socialbuttons]]
 	faicon = "linkedin"
-	url = "https://linkedin.com"
-	[[params.socialbuttons]]
-	faicon = "google-plus"
-	url = "https://plus.google.com/rhumbles"
+	url = "https://www.linkedin.com/in/richardhumbles/"
+	
 
 	[[params.navlinks]]
 	name = "About"
-	url = "about"
+	url = "about/"
 	
 	[[params.navlinks]]
 	name = "Blog"
-	url = ""
+	url = "post/"
 	
 	[[params.navlinks]]
 	name = "Tutorials"
-	url = "tutorial/"
+	url = "tutorials/"
